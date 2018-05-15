@@ -1,0 +1,17 @@
+***Single-Row Functions:
+- manipulate data items, act on each returned row, return one result per row
+- can be used in SELECT, WHERE, ORDER BY
+- accept arguments that can be a column or an expression
+- Case-conversion functions: LOWER, UPPER, INITCAP
+- Character manipulation functions:  LENGTH, INSTR, REPLACE
+
+***Multiple Row Functions (Aggregate Functions): takes multiple rows as input and returns one output 
+- MIN
+- MAX
+- AVG
+- SUM
+- COUNT
+
+***HAVING Clause: used in aggregate function , filter based on return of the function 
+- HAVING: used to filter group rows, if condition contains group function; applied after GROUP BY
+- WHERE: used to filter individual rows if condition does not contain group function; applied before GROUP BY
