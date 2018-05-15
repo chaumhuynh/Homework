@@ -10,3 +10,14 @@ All element locators used by the application will be stored in a class file sepa
 Page class contains element locators, and methods performing operation of elements (like click, sendKeys, ect.)
 Test cases contain actual test scenarios, and call to methods in page class with arguments
 Scenario example: when user goes to Amazon.com and clicks on a product, user should be able to see the product name
+
+
+Ways of POM implementation:
+- Without Page Factory:
+	- Uses By()
+	- No import
+	- No Cache storage
+- With Page Factory:
+	- Uses @FindBy()
+	- Import package
+	- Cache lookup is faster (shorter processing time)
