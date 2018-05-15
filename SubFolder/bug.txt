@@ -1,0 +1,17 @@
+Bug Life Cycle
+- the specific set of states that a bug goes through from discovery to defect fixation / during its lifetime
+- varies from organization to organization, from project to project and depends upon the tools used
+
+
+- Severity is the level of impact a bug has on the functionality of the application
+- Priority is the order in which a bug should be fixed
+
+***Label / Status of Bug Life Cycle
+- New - when the bug is found, logged and posted for the first time
+- Assigned - once bug is posted by tester, lead of tester approves the bug and assigns to development team
+- Open - developer starts analyzing and works on defect fix
+- Fixed - when developer makes necessary code changes and verifies the fix
+- Retest - testers retest to see if bug has been fixed successfully or not
+- Reopened - after retesting, if the issue still exists, the status is assigned ‘reopened’ and bug goes through life cycle again
+- Rejected - when dev feels that the bug is not genuine, dev rejects the bug
+- Closed - once the bug is fixed, the tester tests the bug and if the bug no longer exists in the system, tester can change the status to ‘closed’

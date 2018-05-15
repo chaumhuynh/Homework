@@ -1,0 +1,23 @@
+Page Object Model (POM) - a design pattern (how you design your code), not a framework
+Web elements are used in multiple test cases - what happened if the path/locator of these element changes?
+If we hardcoded everything instead of passing values dynamically, we would have to edit every single test (what if we had hundreds of test cases?)
+the same element can be present on different pages (menu bar, header, footer...)
+big websites have a lot of elements in one page, small applications have limited number of elements
+? We use POM to resolve these issues
+
+Definition:  Page Object Model is an Object Repository design pattern in Selenium WebDriver for web UI elements where element locators and test scripts are stored separately
+All element locators used by the application will be stored in a class file separately from test cases - page class and test cases will interact with each other
+Page class contains element locators, and methods performing operation of elements (like click, sendKeys, ect.)
+Test cases contain actual test scenarios, and call to methods in page class with arguments
+Scenario example: when user goes to Amazon.com and clicks on a product, user should be able to see the product name
+
+
+Ways of POM implementation:
+- Without Page Factory:
+	- Uses By()
+	- No import
+	- No Cache storage
+- With Page Factory:
+	- Uses @FindBy()
+	- Import package
+	- Cache lookup is faster (shorter processing time)

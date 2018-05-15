@@ -1,0 +1,5 @@
+A constructor in Java is a block of code similar to a method that’s called when an instance of an object is created ? allow us to provide initial values for class fields when we create the object.
+A constructor doesn’t have a return type.
+The name of the constructor must be the same as the name of the class.
+Unlike methods, constructors are not considered members of a class.
+A constructor is called automatically when a new instance of an object is created.
