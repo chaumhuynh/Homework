@@ -1,0 +1,4 @@
+Scrum framework - an Agile framework for completing projects; applied to any project or product development effort - is designed for product owner, scrum master, and scrum team
+Roles - product owner, scrum master, team
+Artifacts - product backlog, sprint backlog, burndown chart
+Ceremonies - sprint planning, sprint demo, sprint retrospective, daily standup
