@@ -1,0 +1,4 @@
+Waterfall Methodology - a sequential, step-by-step design process with non-overlapping phases 
+can not go back once a step has been completed (sometimes only between Development and Testing phases)
+      ? no room for error
+best for when there is a clear picture in mind, when quality / definition is key to success, not speed, or when clients won’t change scope once project has begun
